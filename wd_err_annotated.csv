@@ -1,0 +1,137 @@
+concept,entity,actual,predicted,human
+History of cities,history of money in Germany until 1871,negative,positive,negative
+History of cities,Perea,negative,positive,negative
+History of cities,Caesaromagus,negative,positive,positive
+History of cities,Sultanate of Nejd,negative,positive,negative
+History of cities,Nemausus,negative,positive,positive
+History of cities,Caesarodunum,negative,positive,positive
+History of cities,History of Marabá,negative,positive,positive
+History of cities,Cenabum,negative,positive,positive
+History of cities,military history of Japan,negative,positive,negative
+History of cities,First Empire of Brazil,negative,positive,negative
+History of cities,Mediolanum Santonum,negative,positive,positive
+History of cities,history of English Australians,negative,positive,negative
+History of cities,history of the Empire of Japan,negative,positive,negative
+History of cities,territory of Saudi Arabia,negative,positive,negative
+Embedded system,Namco Warp & Warp,positive,negative,negative
+Embedded system,Naomi 2,positive,negative,positive
+Embedded system,M27,positive,negative,positive
+Embedded system,Mitchell,positive,negative,positive
+Embedded system,Marvin's Maze,positive,negative,negative
+Embedded system,Chihiro,positive,negative,negative
+Irregular galaxy,NGC 3077,positive,negative,positive
+Irregular galaxy,NGC 2915,positive,negative,negative
+Irregular galaxy,IC 3617,positive,negative,positive
+Irregular galaxy,IC 3518,positive,negative,positive
+Irregular galaxy,MCG-02-07-026,positive,negative,positive
+Irregular galaxy,UGC 2014,positive,negative,positive
+Irregular galaxy,UGC 2182,positive,negative,positive
+Irregular galaxy,ESO 249-27,positive,negative,negative
+Irregular galaxy,UGC 2664,positive,negative,Negative
+Irregular galaxy,NGC 3448,positive,negative,positive
+Plant variety (law),Cleopatra,positive,negative,positive
+Plant variety (law),Hawkeye (ciruela),positive,negative,positive
+Plant variety (law),African Rose,positive,negative,positive
+Plant variety (law),Heron,positive,negative,positive
+Plant variety (law),Comox,positive,negative,positive
+Plant variety (law),Belle of Leuven,positive,negative,positive
+Plant variety (law),Boyuela,positive,negative,positive
+Plant variety (law),Camoni,positive,negative,positive
+Plant variety (law),Barnea,positive,negative,positive
+Plant variety (law),Butlum,positive,negative,positive
+Plant variety (law),Franquette,positive,negative,positive
+Plant variety (law),Posmo,positive,negative,positive
+Plant variety (law),Gagatai,positive,negative,positive
+Plant variety (law),Cap of Liberty (apple),negative,positive,positive
+Plant variety (law),Malling-Merton 111,negative,positive,positive
+Plant variety (law),Major (cider apple),negative,positive,positive
+Plant variety (law),Allium cepa Aggregatum Group,negative,positive,positive
+Microcomputer,Primo,positive,negative,positive
+Microcomputer,GC PowerPlus/32,negative,positive,negative
+Microcomputer,9076-002 SP1,negative,positive,negative
+Microcomputer,CS-2/32,negative,positive,negative
+Microcomputer,CS6400,negative,positive,negative
+Fraud,Silver Thursday,positive,negative,negative
+Fraud,Kwangmyong,positive,negative,negative
+Fraud,Lyoness,positive,negative,positive
+Fraud,Acámbaro figures,negative,positive,negative
+Fraud,Lance Armstrong doping case,negative,positive,positive
+Fraud,Hanxin,negative,positive,negative
+Fraud,Japanese paleolithic hoax,negative,positive,negative
+Fraud,Hu Xingrong plagiarism incident at Shantou University,negative,positive,positive
+Fraud,Hwang Woo-suk scandal,negative,positive,positive
+Fraud,Piltdown Man,negative,positive,negative
+Fraud,Disappearing Positive Methodology,negative,positive,negative
+Fraud,Operation Aderlass,negative,positive,negative
+Seaplane,A-851,positive,negative,positive
+Seaplane,A-852,positive,negative,positive
+Seaplane,A-858,positive,negative,positive
+Seaplane,A-1043,positive,negative,positive
+Seaplane,A-1037,positive,negative,positive
+Seaplane,Hamburg,positive,negative,positive
+Seaplane,A-752,positive,negative,positive
+Seaplane,A-152,positive,negative,positive
+Seaplane,A-767,positive,negative,positive
+Seaplane,A-766,positive,negative,positive
+Seaplane,A-768,positive,negative,positive
+Seaplane,A-770,positive,negative,positive
+Beer in Belgium,Abbaye de Cambron,positive,negative,positive
+Beer in Belgium,Achel Brewery,positive,negative,positive
+Beer in Belgium,Dominus,positive,negative,positive
+Beer in Belgium,Crabbelaer,positive,negative,positive
+Beer in Belgium,Us Heit Dubbel Tarwe Bier,positive,negative,positive
+Beer in Belgium,Maes pils,negative,positive,positive
+Beer in Belgium,Cristal,negative,positive,negative
+Beer in Belgium,Amstel 0.0,negative,positive,negative
+Seyfert galaxy,7C 114610.00+594129.00,positive,negative,positive
+Seyfert galaxy,NGC 5322,positive,negative,negative
+Seyfert galaxy,NGC 6394,positive,negative,negative
+Seyfert galaxy,NGC 617,positive,negative,negative
+Seyfert galaxy,NGC 169,positive,negative,negative
+Seyfert galaxy,IC 9,positive,negative,negative
+Seyfert galaxy,Messier 94,positive,negative,negative
+Seyfert galaxy,NGC 3338,positive,negative,negative
+Catholic higher education,Rachol Seminary,negative,positive,positive
+Village (Japan),Hayashida Immigrant Village,positive,negative,negative
+Village (Japan),Yoshino Immigrant Village,positive,negative,negative
+Village (Japan),Toyota Immigrant Village,positive,negative,negative
+Village (Japan),Shibetoro,positive,negative,positive
+Village (Japan),Tachikawa,positive,negative,positive
+Fetus,"Luísa Vitória, Princess of Grão-Pará",positive,negative,negative
+Fetus,Wakatakayori-hime no Mikoto,positive,negative,negative
+Fetus,Archduchess Maria Carolina of Austria,positive,negative,negative
+Fetus,Wakamitsuteru-hiko no Mikoto,positive,negative,negative
+Fetus,Paul Richard Polanski,positive,negative,positive
+Fetus,Arabella Kennedy,positive,negative,positive
+Fetus,Basili,positive,negative,negative
+Art movement,degenerate art,positive,negative,negative
+Child,Marion Stone,positive,negative,positive
+Child,Creche house Bayero University Kano state,positive,negative,negative
+Child,Chartiste,positive,negative,negative
+Child,Dzieciątko,positive,negative,negative
+Child,Saturday Mthiyane,positive,negative,positive
+Child,Kamala,positive,negative,negative
+Child,"Luísa Vitória, Princess of Grão-Pará",positive,negative,positive
+Child,Wakatakayori-hime no Mikoto,positive,negative,positive
+Child,Fill Adoptiu de Palafrugell,negative,positive,negative
+Child,Sailor Saturn,negative,positive,negative
+Child,Snow White,negative,positive,negative
+Child,Little Mermaid,negative,positive,negative
+Chronology,Hellenistic period,positive,negative,negative
+Chronology,Bold Beautiful Biathlon,positive,negative,negative
+Chronology,Dieux du Stade,positive,negative,negative
+Chronology,Malanka,positive,negative,negative
+Chronology,Family,negative,positive,negative
+Chronology,Black Inventors,negative,positive,negative
+Chronology,Cueva de las Manos,negative,positive,negative
+Chronology,Schicksalssprünge,negative,positive,negative
+Indigenous peoples of the Americas,Hamatla Treaty Society,positive,negative,negative
+Indigenous peoples of the Americas,Taboso people,positive,negative,positive
+Indigenous peoples of the Americas,Bamoa,positive,negative,positive
+Esports,GIGA Television,positive,negative,negative
+Esports,Treasure Master,positive,negative,negative
+Esports,men's doubles,negative,positive,negative
+Esports,men's singles,negative,positive,negative
+Natural science,creationism,positive,negative,negative
+Natural science,Ethnic groups of Andhra Pradesh,positive,negative,negative
+Natural science,La Carte du ciel,negative,positive,negative
