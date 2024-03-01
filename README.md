@@ -6,9 +6,17 @@
  University of Amsterdam, Amsterdam, The Netherlands
 
 ## Overview
-A backbone of knowledge graphs are their *class membership relations*, which assign entities to a given class. As part of the knowledge engineering process, we propose a new method for evaluating the quality of these relations by processing descriptions of a given entity and class using a zero-shot chain-of-thought classifier that uses a natural language intensional definition of a class. This repository contains the data and code involved in an evaluation of this method.
+A backbone of knowledge graphs are their *class membership relations*, which assign entities to a given class. As part of the knowledge engineering process, we propose a new method for evaluating the quality of these relations by processing descriptions of a given entity and class using a zero-shot chain-of-thought classifier that uses a natural language intensional definition of a class (Figure 1). This repository contains the data and code involved in an evaluation of this method.
 
-We evaluated the method using two publicly available knowledge graphs, Wikidata and CaLiGraph, and 7 large language models. Using the gpt-4-0125-preview large language model, the method’s classification performance achieved a macro-averaged F1-score of 0.830 on data from Wikidata and 0.893 on data from CaLiGraph. Moreover, a manual analysis of the classification errors showed that 40.9% of errors were due to the knowledge graphs, with 16.0% due to missing relations and 24.9% due to incorrectly asserted relations. These results show how large language models can assist knowledge engineers in the process of knowledge graph refinement.
+<p align="center">
+  <img src="images/zero_shot_cot_classifier.png" alt="A zero-shot chain-of-thought classifier applied to the class clgo:Romania international rugby union player and the entity clgr:Iosif Nemes from the CaLiGraph knowledge graph.">
+  <br>
+  <em>Figure 1: A zero-shot chain-of-thought classifier applied to the class clgo:Romania international rugby union player and the entity clgr:Iosif Nemes from the CaLiGraph knowledge graph.</em>
+</p>
+
+We evaluated the method using two publicly available knowledge graphs, Wikidata and CaLiGraph, and 7 large language models. Using the gpt-4-0125-preview large language model, the method’s classification performance achieved a macro-averaged F1-score of 0.830 on data from Wikidata and 0.893 on data from CaLiGraph. Moreover, a manual analysis of the classification errors showed that 40.9% of errors were due to the knowledge graphs, with 16.0% due to missing relations and 24.9% due to incorrectly asserted relations. 
+
+The principal contributions of this work are 1) a formal approach to the design of a neurosymbolic knowledge engineering workflow integrating KGs and LLMs, and 2) experimental evidence that this method can assist knowledge engineers in addressing the correctness and completeness of KGs, potentially reducing the effort involved in knowledge acquisition and elicitation.
 
 ## License
 MIT.
