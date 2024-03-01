@@ -14,6 +14,18 @@ We evaluated the method using two publicly available knowledge graphs, Wikidata 
 ## License
 MIT.
 
+## Requirements
+- Python 3.11 or higher.
+- OPENAI_API_KEY
+- HUGGINGFACEHUB_API_TOKEN
+
+## Installation
+    $ git clone https://github.com/bradleypallen/evaluating-kg-class-memberships-using-llms.git
+    $ cd evaluating-kg-class-memberships-using-llms
+    $ python -m venv env
+    $ source env/bin/activate
+    $ pip install -r requirements.txt
+
 ## Source code
 - Classifier implementation: [classifier.py](src/classifier.py)
 - Utilities for running experiments and displaying results: [utils.py](src/utils.py)
@@ -59,4 +71,3 @@ MIT.
     - Wikidata: [wd_err_annotated.numbers](error-analysis/wd_err_annotated.numbers) (Numbers), [cg_err_annotated.csv](error-analysis/cg_err_annotated.csv) (CSV)
     - CaLiGraph: [cg_err_annotated.numbers](error-analysis/cg_err_annotated.numbers) (Numbers), [cg_err_annotated.csv](error-analysis/cg_err_annotated.csv) (CSV)
 - Error analysis: [gpt-4-0125-preview-error-analysis.ipynb](gpt-4-0125-preview-error-analysis.ipynb)
-
