@@ -14,37 +14,36 @@ We evaluated the method using two publicly available knowledge graphs, Wikidata 
 ## License
 MIT.
 
-## Data sets
-- Wikidata: [wikidata_classes.json](wikidata_classes.json)
-- CaLiGraph: [caligraph_classes.json](caligraph_classes.json)
-
-## Code
-- Classifier implementation: [classifier.py](classifier.py)
-- Utilities for running experiments and displaying results: [utils.py](utils.py)
+## Source code
+- Classifier implementation: [classifier.py](src/classifier.py)
+- Utilities for running experiments and displaying results: [utils.py](src/utils.py)
 
 ## Experiments
 - Notebooks for executing experiments
-    - Wikidata: [wikidata_experiment.ipynb](wikidata_experiment.ipynb)
-    - CaLiGraph [caligraph_experiment.ipynb](caligraph_experiment.ipynb)
-- Experimental results
+    - Wikidata: [wikidata_experiment.ipynb](experiments/wikidata_experiment.ipynb)
+    - CaLiGraph [caligraph_experiment.ipynb](experiments/caligraph_experiment.ipynb)
+- Data sets
+    - Wikidata: [wikidata_classes.json](experiments/wikidata_classes.json)
+    - CaLiGraph: [caligraph_classes.json](experiments/caligraph_classes.json)
+- Classification results
     - Wikidata
-        - gemma-2b-it: [gemma-2b-it-wikidata.json](gemma-2b-it-wikidata.json)
-        - gemma-7b-it: [gemma-7b-it-wikidata.json](gemma-7b-it-wikidata.json)
-        - gpt-3.5-turbo: [gpt-3.5-turbo-wikidata.json](gpt-3.5-turbo-wikidata.json)
-        - gpt-4.0-0125-preview: [gpt-4-0125-preview-wikidata.json](gpt-4-0125-preview-wikidata.json)
-        - Llama-2-70b-chat-hf: [Llama-2-70b-chat-hf-wikidata.json](Llama-2-70b-chat-hf-wikidata.json)
-        - Mistral-7b-instruct-v0.2: [Mistral-7B-Instruct-v0.2-wikidata.json](Mistral-7B-Instruct-v0.2-wikidata.json)
-        - Mixtral-8x7B-Instruct-v0.1: [Mixtral-8x7B-Instruct-v0.1-wikidata.json](Mixtral-8x7B-Instruct-v0.1-wikidata.json)
+        - gemma-2b-it: [gemma-2b-it-wikidata.json](experiments/gemma-2b-it-wikidata.json)
+        - gemma-7b-it: [gemma-7b-it-wikidata.json](experiments/gemma-7b-it-wikidata.json)
+        - gpt-3.5-turbo: [gpt-3.5-turbo-wikidata.json](experiments/gpt-3.5-turbo-wikidata.json)
+        - gpt-4.0-0125-preview: [gpt-4-0125-preview-wikidata.json](experiments/gpt-4-0125-preview-wikidata.json)
+        - Llama-2-70b-chat-hf: [Llama-2-70b-chat-hf-wikidata.json](experiments/Llama-2-70b-chat-hf-wikidata.json)
+        - Mistral-7b-instruct-v0.2: [Mistral-7B-Instruct-v0.2-wikidata.json](experiments/Mistral-7B-Instruct-v0.2-wikidata.json)
+        - Mixtral-8x7B-Instruct-v0.1: [Mixtral-8x7B-Instruct-v0.1-wikidata.json](experiments/Mixtral-8x7B-Instruct-v0.1-wikidata.json)
     - CaLiGraph
-        - gemma-2b-it: [gemma-2b-it-caligraph.json](gemma-2b-it-caligraph.json)
-        - gemma-7b-it: [gemma-7b-it-caligraph.json](gemma-7b-it-caligraph.json)
-        - gpt-3.5-turbo: [gpt-3.5-turbo-caligraph.json](gpt-3.5-turbo-caligraph.json)
-        - gpt-4.0-0125-preview: [gpt-4-0125-preview-caligraph.json](gpt-4-0125-preview-caligraph.json)
-        - Llama-2-70b-chat-hf: [Llama-2-70b-chat-hf-caligraph.json](Llama-2-70b-chat-hf-caligraph.json)
-        - Mistral-7b-instruct-v0.2: [Mistral-7B-Instruct-v0.2-caligraph.json](Mistral-7B-Instruct-v0.2-caligraph.json)
-        - Mixtral-8x7B-Instruct-v0.1: [Mixtral-8x7B-Instruct-v0.1-caligraph.json](Mixtral-8x7B-Instruct-v0.1-caligraph.json)
+        - gemma-2b-it: [gemma-2b-it-caligraph.json](experiments/gemma-2b-it-caligraph.json)
+        - gemma-7b-it: [gemma-7b-it-caligraph.json](experiments/gemma-7b-it-caligraph.json)
+        - gpt-3.5-turbo: [gpt-3.5-turbo-caligraph.json](experiments/gpt-3.5-turbo-caligraph.json)
+        - gpt-4.0-0125-preview: [gpt-4-0125-preview-caligraph.json](experiments/gpt-4-0125-preview-caligraph.json)
+        - Llama-2-70b-chat-hf: [Llama-2-70b-chat-hf-caligraph.json](experiments/Llama-2-70b-chat-hf-caligraph.json)
+        - Mistral-7b-instruct-v0.2: [Mistral-7B-Instruct-v0.2-caligraph.json](experiments/Mistral-7B-Instruct-v0.2-caligraph.json)
+        - Mixtral-8x7B-Instruct-v0.1: [Mixtral-8x7B-Instruct-v0.1-caligraph.json](experiments/Mixtral-8x7B-Instruct-v0.1-caligraph.json)
 
-## Results
+## Findings
 
 ### Classifier performance
 - Wikidata: [wikidata-classifier-performance.ipynb](wikidata-classifier-performance.ipynb)
@@ -54,10 +53,10 @@ MIT.
 - Classifier errors using gpt-4-0125-preview: [gpt-4-0125-preview-errors.ipynb](gpt-4-0125-preview-errors.ipynb)
 - Notebook for generating CSV files for import into spreadsheet application in support of human annotation for error analysis: [gpt-4-0125-preview-error-analysis-prep.ipynb](gpt-4-0125-preview-error-analysis-prep.ipynb)
 - Generated CSV files for import into spreadsheets for human annotation
-    - Wikidata: [wd_err.csv](wd_err.csv)
-    - CaLiGraph: [cg_err.csv](cg_err.csv)
+    - Wikidata: [wd_err.csv](error-analysis/wd_err.csv)
+    - CaLiGraph: [cg_err.csv](error-analysis/cg_err.csv)
 - Spreadsheets and CSV files with human annotations:
-    - Wikidata: [wd_err_annotated.numbers](wd_err_annotated.numbers) (Numbers), [cg_err_annotated.csv](cg_err_annotated.csv) (CSV)
-    - CaLiGraph: []() (Numbers), []() (CSV)
+    - Wikidata: [wd_err_annotated.numbers](error-analysis/wd_err_annotated.numbers) (Numbers), [cg_err_annotated.csv](error-analysis/cg_err_annotated.csv) (CSV)
+    - CaLiGraph: [cg_err_annotated.numbers](error-analysis/cg_err_annotated.numbers) (Numbers), [cg_err_annotated.csv](error-analysis/cg_err_annotated.csv) (CSV)
 - Error analysis: [gpt-4-0125-preview-error-analysis.ipynb](gpt-4-0125-preview-error-analysis.ipynb)
 

@@ -1,7 +1,7 @@
 import json, os, re, pycm, pandas as pd, matplotlib.pyplot as plt, seaborn as sns
 from tqdm import tqdm
 from IPython.display import display, Markdown
-from classifier import Classifier
+from src.classifier import Classifier
 
 def clean_output(llm_output):
     normalized_output = llm_output.lower()
