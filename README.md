@@ -18,6 +18,9 @@ We evaluated the method using two publicly available knowledge graphs, Wikidata 
 
 The principal contributions of this work are 1) a formal approach to the design of a neurosymbolic knowledge engineering workflow integrating KGs and LLMs, and 2) experimental evidence that this method can assist knowledge engineers in addressing the correctness and completeness of KGs, potentially reducing the effort involved in knowledge acquisition and elicitation.
 
+## Paper
+[Allen, B.P. and Groth, P.T., 2024. Evaluating Class Membership Relations in Knowledge Graphs using Large Language Models. arXiv preprint arXiv:2404.17000](https://arxiv.org/abs/2404.17000). Accepted to the European Semantic Web Conference Special Track on Large Language Models for Knowledge Engineering, Hersonissos, Crete, GR, May 2024.
+
 ## License
 MIT.
 
